@@ -20,18 +20,3 @@ This service functions as an intermediary layer between the OpenAI API and a mob
 
 ## Generating Test Events
 - `sam local generate-event sns notification` to generate sample test event. This can be modfied for use,
-
-
-
-## Stories
-1. As a user, I want to be able to ask questions and receive answers from ChatGPT by texting a specific number from only my phone. 
-
-## End-to-End Technical Story Workflows
-Story 1
-  1. User texts a question to AWS Pinpoint phone number from their phone number (already saved in Pinpoint)
-  2. Pinpoint takes SMS message and phone number and forwards it to the chatgpt-texting-service-ingress sns topic.
-  3. SNS Topic publishes text message contents
-  4. chatgpt-texting-service lambda is subscribed to sns topic, and triggered by the message
-  5. Lambda processes message, and sends contents to OpenAI Completions API.
-  6. Lambda receives response from OpenAI Completions API, and sends it to a chatgpt-texting-service-egress topic. 
-  7. The SNS topic grabs the phone number from either the contents of the message, or from Pinpoint, and texts the response to the user. 
