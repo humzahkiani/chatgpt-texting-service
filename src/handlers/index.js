@@ -1,7 +1,7 @@
 /**
  * A Lambda function that returns a static string
  */
-export const helloFromLambdaHandler = async () => {
+export const handler = async () => {
     // If you change this message, you will need to change hello-from-lambda.test.mjs
     const message = 'Hello from Lambda!';
 

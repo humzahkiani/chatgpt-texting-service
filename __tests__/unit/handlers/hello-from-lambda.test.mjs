@@ -1,5 +1,5 @@
 // Import helloFromLambdaHandler function from hello-from-lambda.mjs
-import { helloFromLambdaHandler } from '../../../src/handlers/hello-from-lambda.mjs';
+import { handler } from '../../../src/handlers/index.js';
 
 // This includes all tests for helloFromLambdaHandler()
 describe('Test for hello-from-lambda', function () {
