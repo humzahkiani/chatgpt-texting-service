@@ -1,0 +1,11 @@
+# Ignore node modules
+node_modules
+
+# Ignore environment file
+.env
+
+# Ignore build
+.aws-sam
+
+# Ignore package-lock.json
+package-lock.json
