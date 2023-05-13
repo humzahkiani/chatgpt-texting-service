@@ -4,8 +4,10 @@ This service functions as an intermediary layer between the OpenAI API and a mob
 
 ## Technologies Used
 - AWS Lambda (Node.js v18.16.0)
-- AWS Pinpoint
-- AWS SNS
+- AWS SAM
+- OpenAI API (ChatGPT)
+- Twilio API
+- Twilio Phone Number
 
 ## Building and Deploying
 - `sam build` to generate build
@@ -19,4 +21,4 @@ This service functions as an intermediary layer between the OpenAI API and a mob
 
 
 ## Generating Test Events
-- `sam local generate-event sns notification` to generate sample test event. This can be modfied for use,
+- `sam local generate-event sns notification` to generate sample test event. This can be modfied for use
