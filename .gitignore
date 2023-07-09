@@ -21,3 +21,5 @@ events/apiGatewayTwilioTriggerEvent.json
 
 # Vscode Jest config
 .vscode
+chatCompletionCode.js
+template.yaml
