@@ -1,11 +1,9 @@
-# **Development Notes**
+# Development Notes
 
 
 ## **Architecture**
 
 - Refer to architecture.drawio file for visual
-
-&nbsp;
 
 
 ## **Considerations**
@@ -15,20 +13,9 @@
    - Write descriptions for functions OPTIONAL
    - Organize repo in sensible layers
 2. Security
-   - API Gateway
-     - Use HTTPS/TLS 
-     - Add WAF?
-     - Control types of requests allowed
-     - Reduce throttling burst and throttling rate limits
-   - Lambda
-     - Place in private subnet
-     - Use environment variables for all sensitive data
-       - Add to gitignore
-     - Implement authorization for different phone numbers
-     - Implement validation using Twilio 
-     - Implement separate schema validation
-     - Lower concurrency threshold of lambda to prevent overuse and DDoS. 
-     - Configure security group of lambda to only interface with Api Gateway.
+   - Implement authentication for incoming phone numbers to prevent DDoS attack
+   - Lower concurrency threshold of lambda to prevent overuse and DDoS. 
+   - Configure IAM of lambda to only interface with Twilio.
 3. Error Handling
    - Add error handling for all external calls
    - Add error handling for ChatGPT error responses 

@@ -1,13 +1,13 @@
 <mxfile host="65bd71144e">
     <diagram id="vqyctO_IrP8zWpfwo3x8" name="Page-1">
-        <mxGraphModel dx="3654" dy="2592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
+        <mxGraphModel dx="2856" dy="1566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="3" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 26px;&quot;&gt;AWS Cloud&lt;/font&gt;" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=26;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud;strokeColor=#AAB7B8;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" parent="1" vertex="1">
-                    <mxGeometry x="600" y="450" width="858.6" height="480" as="geometry"/>
+                    <mxGeometry x="620" y="550" width="380" height="380" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="Text message with question" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;fontSize=26;" parent="1" source="2" target="29" edge="1">
+                <mxCell id="33" value="Text message with question" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;fontSize=26;" edge="1" parent="1" source="2" target="29">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="140" y="400" as="targetPoint"/>
                         <Array as="points">
@@ -19,15 +19,15 @@
                     <mxGeometry x="-250" y="600" width="97.61" height="232.4" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="ChatGPT Texting Service" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;fontSize=26;fontColor=#FFFFFF;" parent="1" vertex="1">
-                    <mxGeometry x="1188.6" y="650.2" width="155.5" height="162" as="geometry"/>
+                    <mxGeometry x="730" y="650.2" width="155.5" height="162" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="OpenAI API ChatGPT" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=api;fontSize=26;" parent="1" vertex="1">
-                    <mxGeometry x="1568.6" y="639.2" width="410" height="168" as="geometry"/>
+                <mxCell id="28" value="OpenAI API ChatGPT" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=api;fontSize=26;" vertex="1" parent="1">
+                    <mxGeometry x="1110" y="656" width="410" height="168" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="Twilio SMS Phone Number" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.sms;fillColor=#86D466;gradientColor=#42B418;fontSize=26;" parent="1" vertex="1">
+                <mxCell id="29" value="Twilio SMS Phone Number" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.sms;fillColor=#86D466;gradientColor=#42B418;fontSize=26;" vertex="1" parent="1">
                     <mxGeometry x="180" y="630" width="210" height="202.4" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" style="edgeStyle=elbowEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;fontSize=26;" parent="1" source="2" target="29" edge="1">
+                <mxCell id="37" style="edgeStyle=elbowEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;fontSize=26;" edge="1" parent="1" source="2" target="29">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="290" y="980" as="targetPoint"/>
                         <mxPoint x="-199.99500000000018" y="910" as="sourcePoint"/>
@@ -38,103 +38,63 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="42" value="Text Message with Response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=26;" parent="37" vertex="1" connectable="0">
+                <mxCell id="42" value="Text Message with Response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=26;" vertex="1" connectable="0" parent="37">
                     <mxGeometry x="-0.1101" y="-4" relative="1" as="geometry">
                         <mxPoint x="1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="47" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;fontSize=26;" parent="1" edge="1">
+                <mxCell id="45" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;entryX=0.145;entryY=0.855;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=26;" edge="1" parent="1" target="11">
                     <mxGeometry width="80" relative="1" as="geometry">
-                        <mxPoint x="1684.1" y="700" as="sourcePoint"/>
-                        <mxPoint x="1344.1" y="700" as="targetPoint"/>
+                        <mxPoint x="400" y="789" as="sourcePoint"/>
+                        <mxPoint x="710" y="790" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="1424.1" y="700"/>
+                            <mxPoint x="490" y="790"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="51" value="Text Message Contents" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=26;" parent="47" vertex="1" connectable="0">
-                    <mxGeometry x="0.1941" y="-6" relative="1" as="geometry">
-                        <mxPoint x="-1" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="48" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;entryX=0.145;entryY=0.855;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=26;" parent="1" edge="1">
-                    <mxGeometry width="80" relative="1" as="geometry">
-                        <mxPoint x="1338.6" y="780.29" as="sourcePoint"/>
-                        <mxPoint x="1691.1474999999996" y="780" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="1428.6" y="781.29"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="52" value="ChatGPT REesponse" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=26;" parent="48" vertex="1" connectable="0">
-                    <mxGeometry x="-0.2198" y="5" relative="1" as="geometry">
+                <mxCell id="50" value="ChatGPT Response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=26;" vertex="1" connectable="0" parent="45">
+                    <mxGeometry x="-0.2482" y="4" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="53" value="API Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;fontSize=26;" vertex="1" parent="1">
-                    <mxGeometry x="700" y="639.2" width="166.5" height="173" as="geometry"/>
-                </mxCell>
-                <mxCell id="54" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;fontSize=26;" edge="1" parent="1">
+                <mxCell id="46" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;fontSize=26;" edge="1" parent="1">
                     <mxGeometry width="80" relative="1" as="geometry">
-                        <mxPoint x="730.0000000000003" y="680" as="sourcePoint"/>
-                        <mxPoint x="390.00000000000034" y="680" as="targetPoint"/>
+                        <mxPoint x="730" y="700" as="sourcePoint"/>
+                        <mxPoint x="390" y="700" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="469.9999999999999" y="680"/>
+                            <mxPoint x="470" y="700"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="55" value="Text Message Contents" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=26;" vertex="1" connectable="0" parent="54">
-                    <mxGeometry x="0.1941" y="-6" relative="1" as="geometry">
-                        <mxPoint x="-1" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="56" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;fontSize=26;" edge="1" parent="1">
-                    <mxGeometry width="80" relative="1" as="geometry">
-                        <mxPoint x="1704.1000000000004" y="720" as="sourcePoint"/>
-                        <mxPoint x="1364.1000000000004" y="720" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="1444.1" y="720"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="60" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;fontSize=26;" edge="1" parent="1">
-                    <mxGeometry width="80" relative="1" as="geometry">
-                        <mxPoint x="1210.000000000001" y="680" as="sourcePoint"/>
-                        <mxPoint x="870.0000000000009" y="680" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="949.9999999999999" y="680"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="61" value="Text Message Contents" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=26;" vertex="1" connectable="0" parent="60">
-                    <mxGeometry x="0.1941" y="-6" relative="1" as="geometry">
-                        <mxPoint x="-1" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="63" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;entryX=0.145;entryY=0.855;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=26;" edge="1" parent="1">
-                    <mxGeometry width="80" relative="1" as="geometry">
-                        <mxPoint x="876.5000000000003" y="780.29" as="sourcePoint"/>
-                        <mxPoint x="1229.0474999999992" y="780" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="966.4999999999999" y="781.29"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="64" value="ChatGPT REesponse" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=26;" vertex="1" connectable="0" parent="63">
-                    <mxGeometry x="-0.2198" y="5" relative="1" as="geometry">
+                <mxCell id="49" value="Text Message Contents" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=26;" vertex="1" connectable="0" parent="46">
+                    <mxGeometry x="0.0441" y="-6" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="65" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;entryX=0.145;entryY=0.855;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=26;" edge="1" parent="1">
+                <mxCell id="47" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;fontSize=26;" edge="1" parent="1">
                     <mxGeometry width="80" relative="1" as="geometry">
-                        <mxPoint x="390.00000000000034" y="770.29" as="sourcePoint"/>
-                        <mxPoint x="742.5474999999991" y="770" as="targetPoint"/>
+                        <mxPoint x="1225.5" y="700" as="sourcePoint"/>
+                        <mxPoint x="885.5" y="700" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="479.9999999999999" y="771.29"/>
+                            <mxPoint x="965.5" y="700"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="66" value="ChatGPT REesponse" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=26;" vertex="1" connectable="0" parent="65">
+                <mxCell id="51" value="Text Message Contents" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=26;" vertex="1" connectable="0" parent="47">
+                    <mxGeometry x="0.1941" y="-6" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;entryX=0.145;entryY=0.855;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=26;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="880" y="780.29" as="sourcePoint"/>
+                        <mxPoint x="1232.5474999999997" y="780" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="970" y="781.29"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="ChatGPT REesponse" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=26;" vertex="1" connectable="0" parent="48">
                     <mxGeometry x="-0.2198" y="5" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>

@@ -1,23 +1,11 @@
 # Ignore node modules
 node_modules
 
-# Ignore environment variable files
+# Ignore environment file
 .env
-env.json
 
 # Ignore build
 .aws-sam
 
 # Ignore package-lock.json
 package-lock.json
-
-
-# SAM config files
-template.yaml
-samconfig.toml
-
-# Test Events
-events/apiGatewayTwilioTriggerEvent.json
-
-# Vscode Jest config
-.vscode
