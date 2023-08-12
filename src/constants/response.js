@@ -18,3 +18,5 @@ export const HTTP_500_INTERNAL_SERVER_ERROR_RESPONSE = 'The server encountered a
 export const HTTP_502_BAD_GATEWAY_RESPONSE = 'The server acting as a gateway or proxy received an invalid response from an upstream server';
 
 export const HTTP_503_SERVICE_UNAVAILABLE_RESPONSE = 'The server is currently unable to handle the request due to maintenance or temporary overload';
+
+export const ERROR_TEXT_MESSAGE_RESPONSE = 'There was an issue responding to your text... please try again later!';
